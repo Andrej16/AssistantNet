@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AssistantCore.Algorithms;
+﻿namespace AssistantNet.Algorithms;
 
 public class FindMedianSortedArrays
 {

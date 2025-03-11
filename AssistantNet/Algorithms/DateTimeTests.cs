@@ -1,7 +1,6 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
-namespace AssistantCore.Algorithms
+namespace AssistantNet.Algorithms
 {
     public class DateTimeTests
     {

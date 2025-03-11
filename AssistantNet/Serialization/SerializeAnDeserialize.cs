@@ -1,10 +1,8 @@
-﻿using AssistantCore.DataSources;
-using System;
-using System.IO;
+﻿using AssistantNet.DataSources;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Xml.Serialization;
 
-namespace AssistantCore.Serialization
+namespace AssistantNet.Serialization
 {
     public class SerializeAnDeserialize
     {

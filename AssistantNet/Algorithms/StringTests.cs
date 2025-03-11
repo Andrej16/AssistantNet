@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace AssistantCore.Algorithms
+﻿namespace AssistantNet.Algorithms
 {
     public class StringTests
     {

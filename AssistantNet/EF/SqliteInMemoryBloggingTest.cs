@@ -1,8 +1,6 @@
 ﻿using Microsoft.Data.Sqlite;
-using System;
-using System.IO;
 
-namespace AssistantCore.EF
+namespace AssistantNet.EF
 {
     public class SqliteInMemoryBloggingTest
     {

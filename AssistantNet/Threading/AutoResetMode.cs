@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading;
-
-namespace AssistantCore.Threading;
+﻿namespace AssistantNet.Threading;
 
 public class AutoResetMode
 {

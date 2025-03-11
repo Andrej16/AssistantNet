@@ -7,8 +7,9 @@
     <Title>Library contains algorithms, solved issues on the lit code platform</Title>
     <PackageId>assistant-net-algorithms</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.1.2</Version>
+    <Version>1.1.3</Version>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <PackageTags>Utils</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,10 +1,7 @@
-﻿using AssistantCore.DataSources;
-using AssistantCore.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using AssistantNet.DataSources;
+using AssistantNet.Utils;
 
-namespace AssistantCore.Algorithms
+namespace AssistantNet.Algorithms
 {
     public class Groupings
     {

@@ -1,7 +1,6 @@
-﻿using AssistantCore.DataSources;
-using System;
+﻿using AssistantNet.DataSources;
 
-namespace AssistantCore.Algorithms;
+namespace AssistantNet.Algorithms;
 
 public class SaluteAutomaton
 {
@@ -58,7 +57,7 @@ public class SaluteAutomaton
         {
             automaton.Update();
             // Додайте затримку, щоб бачити зміни в реальному часі
-            System.Threading.Thread.Sleep(1000);
+            Thread.Sleep(1000);
             Console.Clear(); // Очищення консолі для нового кадру
         }
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AssistantCore.Utils
+﻿namespace AssistantNet.Utils
 {
     public class AnagramEqualityComparer : IEqualityComparer<string>
     {

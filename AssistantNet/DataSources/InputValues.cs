@@ -1,4 +1,4 @@
-﻿namespace AssistantCore.DataSources
+﻿namespace AssistantNet.DataSources
 {
     public static class InputValues
     {

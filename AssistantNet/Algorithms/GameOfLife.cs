@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading;
-
-namespace AssistantCore.Algorithms
+﻿namespace AssistantNet.Algorithms
 {
     public class GameOfLife
     {
@@ -71,11 +68,11 @@ namespace AssistantCore.Algorithms
                     int liveNeighbors = CountLiveNeighbors(grid, i, j);
                     if (grid[i, j] == 1)
                     {
-                        newGrid[i, j] = (liveNeighbors == 2 || liveNeighbors == 3) ? 1 : 0;
+                        newGrid[i, j] = liveNeighbors == 2 || liveNeighbors == 3 ? 1 : 0;
                     }
                     else
                     {
-                        newGrid[i, j] = (liveNeighbors == 3) ? 1 : 0;
+                        newGrid[i, j] = liveNeighbors == 3 ? 1 : 0;
                     }
                 }
             }

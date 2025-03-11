@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AssistantCore.DataSources
+﻿namespace AssistantNet.DataSources
 {
     // A test object that needs to be serialized.
     [Serializable]

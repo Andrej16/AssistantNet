@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace AssistantCore.DataSources
+﻿namespace AssistantNet.DataSources
 {
     public class Product
     {
